@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.quiz{
+  position: absolute;
+  top:10%;
+  left:34%;
+  border-radius: 1rem;
+  border:3px ridge black;
+  /* height:41rem; */
+  height: auto;
+  width: 30rem;
+  box-shadow: 0px 4px 8px rgba(3, 3, 3, 0.5);
+  background-color: rgb(220, 218, 221);
+  background-image: url('./photos/quiz.jpg');
+  background-size: cover;
+  color: #ffffff;
+}
+.quiz h1{
+  text-align:"center";margin:"1rem 0rem 0rem 1rem" ;color:"#ffffff";
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  text-shadow: rgb(144, 0, 255) 2px 0 10px;
+  -webkit-text-fill-color: #FC0;
+  -webkit-text-stroke: .4px #ffffff;
+
+}
+.quiz-ques{
+  height: 6rem;
+  width: 90%;
+  margin: 1rem;
+  border-radius: 1rem;
+  border:3px ridge black ;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  backdrop-filter: blur(3rem);
+  color: #ffffff;
+}
+.quiz-option{
+  height: 21rem;
+  width: 90%;
+  background-color: #FC0;
+  margin: 1rem;
+  border-radius: 1rem;
+  border:3px ridge black ;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  backdrop-filter: blur(1.54rem);
+  color: #ffffff;
+  
+
+}
+#quiz-option{
+  display: inline-block;
+  object-fit: cover;
+  width:90%;
+  height:3rem;
+  margin:1rem;
+  border-radius: 1rem;
+  background: transparent;
+  color: #ffffff;
+}
+.quiz-next{
+  width: 5rem;
+  background-color: rgb(54, 4, 101);
+  color: #ffffff;
+  border-radius: 1rem;
+  padding: 1px;
+  margin-bottom: 1rem;
+}
+
+.option-btn{
+  box-shadow: 0px 0px 4px 1px rgb(128, 123, 123);
+  padding: 5px;
+  border-radius: 3px;
+  border:none;
+  outline: none;
+  transition: 0.3s;
+  margin: 5px;
+  min-height: 30px;
+  background-color: white;
+}
+.checked{
+  background-color: rgb(179, 83, 179);
+  color:white;
+  box-shadow: 3px 3px 4px 1px rgb(0, 0, 0);
+  border:3px solid rgb(17, 63, 4);
+}
+.option-btn:hover{
+  background-color: rgb(212, 118, 212);
+  color:white;
+}
